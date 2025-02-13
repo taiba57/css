@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+          
+          margin-left: 40%;
+        }
+        input[type="email"], [type="password"]{
+            width: 40%;
+            height: 30px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        input:hover{
+            border: 2px solid blue;
+        }
+        button{
+            width: 42%;
+            height: 40px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: blue;
+            border: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+        a{
+            text-decoration: none;
+            color: blue;
+           
+        }
+        h1{
+            text-align: center;
+        }
+        .help{
+            margin-left: 20%;
+        }
+        input[type="checkbox"]{
+            width: 30px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sign In</h1>
+
+        <form>
+            <input type="email" placeholder="Email Address"><br>
+            <input type="password" placeholder="Password"><br>
+            <div class="flex">
+                <a href="#">Forgot Password?</a>
+            <a href="" class="help">Help</a><br><br>
+            </div>
+            <button type="submit">Sign In</button>
+            <p>By signing in, I agree to the <a  href="">zoom's privacy<br> Statement</a> and <a href="">Terms of Service</a>.</p><br>
+            <input type="checkbox" value=""> <label>Stay signed in</label> <br><br>
+
+        
+            </form>
+  
+</body>
+</html>
